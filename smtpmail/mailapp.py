@@ -30,7 +30,7 @@ msg.attach(part)
 
 server=smtplib.SMTP('smtp.gmail.com:587')
 server.starttls()
-server.login('pbprathi','Shyam123')
+server.login('Username','password')
 
 text=msg.as_string()
 server.sendmail(from_add,to_add,text)
